@@ -1,2 +1,0 @@
-外面的观察者模式是我们从无到有写出，当然java中已经帮我们实现了观察者模式
-借助于java.util.Observable和java.util.Observer
