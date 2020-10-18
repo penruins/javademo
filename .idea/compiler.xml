@@ -13,4 +13,7 @@
       <module name="JDBCDemo" target="8" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding UTF8" />
+  </component>
 </project>

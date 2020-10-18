@@ -1,7 +1,11 @@
 package com.penruins.main.basic.serialize;
 
+import lombok.ToString;
+
 import java.io.Serializable;
 
+
+@ToString
 public class Employee implements Serializable {
     public String name;
     public String address;
