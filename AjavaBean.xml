@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_151" class="java.beans.XMLDecoder">
+ <object class="com.penruins.main.xml.AjavaBeanToXML">
+  <void property="detail">
+   <string>AJava是一个独立的Java社区，致力于提供用户交流平台和优质原创教程、文档、书籍</string>
+  </void>
+  <void property="id">
+   <long>1</long>
+  </void>
+  <void property="siteName">
+   <string>AJAVA独立社区</string>
+  </void>
+  <void property="url">
+   <string>http://ajava.org</string>
+  </void>
+ </object>
+</java>
