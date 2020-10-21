@@ -34,7 +34,7 @@ public class Main extends JFrame {
             @Override
             public void keyPressed(KeyEvent e) {
                 switch (e.getKeyCode()) {
-                    case KeyEvent.VK_U:
+                    case KeyEvent.VK_K:
                         if(snake.getDirection() != Direction.DOWN) {
                             snake.setDirection(Direction.UP);
                         }
@@ -49,7 +49,7 @@ public class Main extends JFrame {
                             snake.setDirection(Direction.LEFT);
                         }
                         break;
-                    case KeyEvent.VK_K:
+                    case KeyEvent.VK_L:
                         if(snake.getDirection() != Direction.LEFT) {
                             snake.setDirection(Direction.RIGHT);
                         }
