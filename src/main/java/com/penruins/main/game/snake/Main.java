@@ -71,7 +71,10 @@ public class Main extends JFrame {
                     snake.eat(food);
                     initFood();
                 }
-
+                if(!snake.isAlive()) {
+                    System.out.println(snake.getBody().size()-6 + "分");
+                    timer.cancel();
+                }
                 jPanel.repaint();
             }
         };
@@ -88,10 +91,6 @@ public class Main extends JFrame {
             @Override
             public void paint(Graphics g) {
                 g.clearRect(0,0,600,600);
-//                for(int i=0;i<40;i++) {
-//                    g.drawLine(0,i*15,600,i*15);
-//                    g.drawLine(i*15,0,i*15,600);
-//                }
                 LinkedList<Node> body = snake.getBody();
                 for(Node node : body) {
                     g.fillRect(node.getX()*15,node.getY()*15,15,15);

@@ -23,7 +23,7 @@ import java.net.Socket;
  *
  * Java网络程序都采用客户/服务器通信模式
  */
-public class Main {
+public class EchoServer {
 
     /**
      * ServerSocket的构造方法负责在操作系统中把当前进程注册为服务器进程。
@@ -43,7 +43,7 @@ public class Main {
     private ServerSocket serverSocket;
 
     @SneakyThrows
-    public Main() {
+    public EchoServer() {
         serverSocket = new ServerSocket(port);
         System.out.println("服务器启动");
     }
@@ -87,7 +87,7 @@ public class Main {
     @SneakyThrows
     public static void main(String[] args) {
 
-        new Main().service();
+        new EchoServer().service();
 
     }
 }
