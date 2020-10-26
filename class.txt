@@ -1,0 +1,2 @@
+classname=com.penruins.main.reflection.Person
+methodname=staticMethod
