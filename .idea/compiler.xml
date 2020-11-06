@@ -7,22 +7,33 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="JDBCDemo" />
+        <module name="DynamicProxy" />
+        <module name="StaticProxy" />
         <module name="RPC" />
-        <module name="proxy" />
+        <module name="NOTE" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="add" target="1.8" />
+      <module name="ddd" target="1.8" />
+      <module name="DynamicProxy" target="1.8" />
       <module name="JDBCDemo" target="1.8" />
+      <module name="NOTE" target="1.8" />
       <module name="proxy" target="1.8" />
       <module name="RPC" target="1.8" />
+      <module name="StaticProxy" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding UTF8" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="DynamicProxy" options="" />
       <module name="JDBCDemo" options="" />
+      <module name="NOTE" options="" />
       <module name="RPC" options="" />
+      <module name="StaticProxy" options="" />
+      <module name="add" options="" />
+      <module name="ddd" options="" />
       <module name="proxy" options="" />
     </option>
   </component>

@@ -1,2 +1,2 @@
-classname=com.penruins.main.reflection.Person
+classname=com.penruins.reflection.Person
 methodname=staticMethod

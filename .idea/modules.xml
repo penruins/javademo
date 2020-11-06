@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../proxy/DynamicProxy/DynamicProxy.iml" filepath="$PROJECT_DIR$/../proxy/DynamicProxy/DynamicProxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/JDBCDemo.iml" filepath="$PROJECT_DIR$/JDBCDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/RPC/RPC.iml" filepath="$PROJECT_DIR$/RPC/RPC.iml" />
-      <module fileurl="file://$PROJECT_DIR$/proxy/proxy.iml" filepath="$PROJECT_DIR$/proxy/proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../NOTE/NOTE.iml" filepath="$PROJECT_DIR$/../NOTE/NOTE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../RPC/RPC.iml" filepath="$PROJECT_DIR$/../RPC/RPC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../proxy/StaticProxy/StaticProxy.iml" filepath="$PROJECT_DIR$/../proxy/StaticProxy/StaticProxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../proxy/proxy.iml" filepath="$PROJECT_DIR$/../proxy/proxy.iml" />
     </modules>
   </component>
 </project>

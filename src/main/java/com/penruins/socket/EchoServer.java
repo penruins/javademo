@@ -42,9 +42,12 @@ public class EchoServer {
     private int port = 8000;
     private ServerSocket serverSocket;
 
-    @SneakyThrows
     public EchoServer() {
-        serverSocket = new ServerSocket(port);
+        try {
+            serverSocket = new ServerSocket(port);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         System.out.println("服务器启动");
     }
 

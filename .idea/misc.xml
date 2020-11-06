@@ -6,7 +6,16 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/RPC/pom.xml" />
         <option value="$PROJECT_DIR$/proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/../NOTE/pom.xml" />
+        <option value="$PROJECT_DIR$/../proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/../proxy/StaticProxy/pom.xml" />
+        <option value="$PROJECT_DIR$/../RPC/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../proxy/add/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
